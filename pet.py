@@ -7,17 +7,21 @@ class Pet :
 
     def eat(self):
         print(self.name+ " is eating🥩🤤...")
-        self.hunger = self.hunger + 3
-        self.happiness = self.happiness +1
+        self.hunger = max(0, self.hunger - 3)
+        self.happiness = min(10, self.happiness + 1)
 
     def sleep(self):
         print(self.name+ " is sleeping😴...")
-        self.energy = self.energy + 5
+        self.energy = min(10, self.energy + 5)
     
     def play(self):
         print(self.name+ " is playing🦴...")
-        self.energy = self.energy - 2
-        self.hunger = self.hunger + 1
+        self.energy = max(0,self.energy - 2)
+        self.hunger = min(10,self.hunger + 1)
+        self.happiness = min(10,self.happiness + 2)
     
     def get_status(self):    
         print(self.name+"'s current status:\nHunger:"+str(self.hunger)+ "\nEnergy:"+str(self.energy)+"\nHappiness:"+str(self.happiness))
+
+    
+
