@@ -35,6 +35,7 @@ Create a class called `Pet` with the following:
 3. In `main.py`, create a pet object and call its methods to test functionality.
 4. Submit a GitHub repo or a zipped folder with your code and a screenshot of the output.
 
+![screenshot of the output](OOP\Screenshot 2025-04-18 230059.png"screenshot of the output")
 ---
 
 ## ✅ Sample Output
@@ -63,4 +64,4 @@ Submission format: clone / fork this repo
 
 Bonus points for creativity (custom actions, emojis, pet types, etc.)
 picture
-![screenshot of the output](OOP\Screenshot 2025-04-18 230059.png"screenshot of the output")
+
